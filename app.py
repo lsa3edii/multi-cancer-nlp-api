@@ -24,7 +24,7 @@ with open('label_encoder.pickle', 'rb') as handle:
 
 lemmatizer = WordNetLemmatizer()
 
-# nltk.download('stopwords')
+nltk.download('stopwords')
 stop_words = set(stopwords.words('english'))
 
 def preprocess_text(text):
