@@ -2,6 +2,7 @@
 
 import numpy as np
 import tensorflow as tf
+import sklearn
 import nltk
 import pickle
 import re
