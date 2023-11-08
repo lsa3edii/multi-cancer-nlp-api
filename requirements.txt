@@ -3,4 +3,5 @@ numpy
 tensorflow
 keras
 nltk
+scikit-learn
 flask
